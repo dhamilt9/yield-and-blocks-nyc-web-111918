@@ -4,6 +4,6 @@ def yielding(num)
   puts "now we are back in the method"
 end
 
-yielding(2) do
+yielding(2) do |i|
   puts "the method has yielded to the block!"
 end
