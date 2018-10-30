@@ -1,8 +1,9 @@
-def yielding
+def yielding(num)
   puts "the program is executing the code inside the method"
-  yield
+  yield(num)
   puts "now we are back in the method"
-  yield
 end
 
-yielding
+yielding(2) do
+  puts "the method has yielded to the block!"
+end
