@@ -5,5 +5,5 @@ def yielding(num)
 end
 
 yielding(2) do |i|
-  puts "the method has yielded to the block!"
+  puts "the method has yielded to the block! #{i}"
 end
