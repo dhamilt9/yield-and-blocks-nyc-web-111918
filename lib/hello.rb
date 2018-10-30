@@ -1,5 +1,4 @@
 def hello_t(array)
-  puts "running"
   i = 0
 
   while i < array.length
